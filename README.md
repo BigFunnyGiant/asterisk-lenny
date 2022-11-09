@@ -1,9 +1,9 @@
 # Lenny
 Telemarketers are the worst. They have no souls. They feed off of the misery of others. No one likes them. Luckily, a nice British gentleman by the name of Lenny has come to save the day.
 
-Setting up Lenny in VitalPBX is a pretty simple task, and is also a really nice primer into Asterisk custom contexts, and the power of scripting.
+Setting up Lenny with Asterisk is a pretty simple task, and is also a really nice primer into Asterisk custom contexts, and the power of scripting.
 
-First, you will want to create the Lenny context in Asterisk. SSH into your VitalPBX and use your favorite editor to edit /etc/asterisk/vitalpbx/extensions__80_lenny.conf. Add the following lines of code:
+First, you will want to create the Lenny context in Asterisk. SSH into your Asterisk server and use your favorite editor to edit /etc/asterisk/vitalpbx/extensions__80_lenny.conf. Add the following lines of code:
 
 <pre>
 vi /etc/asterisk/vitalpbx/extensions__80_lenny.conf
