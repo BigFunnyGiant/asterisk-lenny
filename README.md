@@ -18,7 +18,7 @@ same => n,BackgroundDetect(Lenny/backgroundnoise,1500)
 Next, use WinSCP to copy the Lenny sound files into /var/lib/asterisk/sounds/Lenny
 (you may have to create the /Lenny directory).
 
-The original README had directions for VitalPBX. I use this on Vanilla Asterisk. The original README is still here. The filename is Original_Readme.md 
+The original README had directions here for VitalPBX with screenshots. I use this on Vanilla Asterisk. The original README is still here. The filename is Original_Readme.md 
 I will work on a new README soon. I also have some ideas for new recordings and some refinement of the code. 
 
 :smile: :smile: **I hope you enjoy it.**
