@@ -6,7 +6,7 @@ Setting up Lenny with Asterisk is a pretty simple task, and is also a really nic
 First, you will want to include the Lenny context in Asterisk. SSH into your Asterisk server and use your favorite editor to edit /etc/asterisk/extensions.conf. Add the following lines of code:
 
 <pre>
- #include extensions__80_lenny.conf 
+ #include extensions_lenny.conf 
 </pre>
 
 You'll want to point it to where you have the file stored, or just copy and paste the file contents into your extensions.conf.
