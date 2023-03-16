@@ -21,6 +21,7 @@ On my system I send any incoming unauthorized calls to the [public] context like
 exten => _X!,1,Log(NOTICE, Unauthorized call: ${CALLERID(all)} at "${CHANNEL(peerip)}" to ${EXTEN})
   same => n,System(iptables -A INPUT -s ${CHANNEL(peerip)} -j DROP)
   same => n,Gosub(lenny,talk,1)
+  same => n,Hangup()
 </pre>
 
 The original README had directions here for VitalPBX with screenshots. I use this on Vanilla Asterisk. The original README is still here. The filename is Original_Readme.md 
