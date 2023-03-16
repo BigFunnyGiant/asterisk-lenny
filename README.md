@@ -27,6 +27,8 @@ I will work on a new README soon. I also have some ideas for new recordings and 
 
 [Crosstalk Solutions](https://crosstalksolutions.com/howto-pwn-telemarketers-with-lenny/)
 
+[Original VitalPBX Repository](https://github.com/VitalPBX/Telemarketers-with-Lenny)
+
 [HowTo: PWN Telemarketers with Lenny](https://www.youtube.com/watch?v=RRhRImp6kKQ)
 
 [Pitch-perfect prank: 'Lenny' answers the campaign's call](https://ottawacitizen.com/news/local-news/pitch-perfect-prank-lenny-answers-the-politicians-call)
