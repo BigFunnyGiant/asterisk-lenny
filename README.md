@@ -6,7 +6,7 @@ Setting up Lenny with Asterisk is a pretty simple task, and is also a really nic
 First, you will want to create the Lenny context in Asterisk. SSH into your Asterisk server and use your favorite editor to edit /etc/asterisk/vitalpbx/extensions__80_lenny.conf. Add the following lines of code:
 
 <pre>
-vi /etc/asterisk/vitalpbx/extensions__80_lenny.conf
+vi /etc/asterisk/extensions__80_lenny.conf
 
 [Lenny]
 exten => talk,1,Set(i=${IF($["0${i}"="016"]?7:$[0${i}+1])})
